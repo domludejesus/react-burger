@@ -11,7 +11,7 @@ import {
 
 const Sidebar = ({ isOpen, toggle}) => {
     return (
-        <SidebarContainer isOpen={isOpen} onClick={toggle}> 
+        <SidebarContainer isOpen={isOpen} onClick={toggle}> {/*anywhere you click it will close sidebar */}
             <Icon onClick={toggle}>
                 <CloseIcon />
             </Icon>

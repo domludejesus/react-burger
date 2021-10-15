@@ -16,7 +16,7 @@ const Sidebar = ({ isOpen, toggle}) => {
                 <CloseIcon />
             </Icon>
             <SidebarMenu>
-                <SidebarLink to="/"> Pizzass </SidebarLink> 
+                <SidebarLink to="/"> Burgers </SidebarLink> 
                 <SidebarLink to="/"> Desserts </SidebarLink> 
                 <SidebarLink to="/"> Full Menu </SidebarLink> 
                 <SidebarLink to="/"> Contact Us </SidebarLink>  

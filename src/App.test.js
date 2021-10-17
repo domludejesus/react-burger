@@ -2,6 +2,7 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
+/* to run these tests within terminal do npm test */ 
 test('render company name', () => {
   render(<App />);
   expect(screen.getByText('Burger Town')).toBeInTheDocument();

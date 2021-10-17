@@ -11,10 +11,10 @@ import {
 } from './HeroElements'; 
 
 const Hero = () => {
-    const [isOpen, setIsOpen] = useState(false)
+    const [isOpen, setIsOpen] = useState(false) /* If toggled and not open  */ 
 
     const toggle = () => {
-        setIsOpen(!isOpen) 
+        setIsOpen(!isOpen)  /* Then open  */ 
     }
     return (
         <HeroContainer> 

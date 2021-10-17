@@ -8,7 +8,7 @@ import sweet3 from '../../images/sweet4.jpg';
 
 
 
-export const productData = [
+export const productData = [ /* data being pulled into components */ 
     {
         img:product1, 
         alt: 'Burger', 

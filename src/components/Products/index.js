@@ -12,7 +12,7 @@ import {
     ProductButton, 
 } from './ProductsElements'; 
 
-const Products = ({heading, data}) => {
+const Products = ({heading, data}) => {     /* taking data from products and formatting */ 
     return (
         <ProductsConatiner>
             <ProductsHeading> {heading} </ProductsHeading>

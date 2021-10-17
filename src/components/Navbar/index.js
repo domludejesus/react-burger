@@ -8,7 +8,7 @@ import {
 
 
 
-const Navbar = ({ toggle }) => {
+const Navbar = ({ toggle }) => { /* adding toggle functionality */ 
     return (
         <>
             <Nav>
